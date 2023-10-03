@@ -1,0 +1,76 @@
+/* Reset some default styles for better styling control */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Style the main container */
+  .App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Style the header */
+  h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the task input and add button */
+  div > input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  div > button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  div > button:hover {
+    background-color: #555;
+  }
+  
+  /* Style the task list */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style the remove button */
+  li > button {
+    background-color: #ff6666;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  li > button:hover {
+    background-color: #ff3333;
+  }
+  
+  /* Add more styles as needed */
+  
